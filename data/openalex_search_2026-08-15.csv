@@ -1,0 +1,13 @@
+query_id,query_string,records_returned,date_executed,endpoint
+1,"""overall equipment effectiveness""",9289,2026-08-15,https://api.openalex.org/works?search=
+2,"""overall equipment effectiveness"" AND variance",857,2026-08-15,https://api.openalex.org/works?search=
+3,"""overall equipment effectiveness"" AND decomposition",522,2026-08-15,https://api.openalex.org/works?search=
+4,"""overall equipment effectiveness"" AND sensitivity",816,2026-08-15,https://api.openalex.org/works?search=
+5,"""overall equipment effectiveness"" AND diagnostic",1237,2026-08-15,https://api.openalex.org/works?search=
+6,"""overall equipment effectiveness"" AND aggregation",482,2026-08-15,https://api.openalex.org/works?search=
+7,"""overall equipment effectiveness"" AND ""temporal resolution""",24,2026-08-15,https://api.openalex.org/works?search=
+8,"""overall equipment effectiveness"" AND (critique OR criticism OR limitation)",2375,2026-08-15,https://api.openalex.org/works?search=
+9,"""composite indicator"" AND ""variance decomposition""",343,2026-08-15,https://api.openalex.org/works?search=
+10,"""overall equipment effectiveness"" ""variance decomposition""",4,2026-08-15,https://api.openalex.org/works?search=
+11,"OEE ""log-variance""",1,2026-08-15,https://api.openalex.org/works?search=
+12,"""overall equipment effectiveness"" ""coefficient of variation"" availability performance",65,2026-08-15,https://api.openalex.org/works?search=
