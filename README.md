@@ -68,13 +68,21 @@ one unit and applies it unchanged to every machine and every shift of that year.
 column therefore holds six distinct values across six years — at shift resolution it is a year
 effect, not a shift-varying quantity.
 
-> **Open item.** Those six annual figures are being re-verified against the plant's original
-> paper registers, and this repository will be updated when that is complete. Readers should
-> treat the Availability *levels* as provisional. The result reported in the paper is a statement
-> about *dispersion* and does not depend on them: shifting all six values down by twenty
-> percentage points moves the allocated share of Availability from −1.10% to −1.36%, and the six
-> figures would have to run from roughly 71% to 100% before Availability was allocated even 5% of
-> the variance. `code/reproduce.py` recomputes both of those checks.
+> **Open item, and how far it reaches.** Those six annual figures are being re-verified against
+> the plant's original paper registers, and this repository will be updated when that is
+> complete. Readers should treat the Availability *levels* as provisional.
+>
+> The reported result is a statement about *dispersion*, not levels, and the exposure is bounded
+> from two independent directions. Shifting all six values down by twenty percentage points moves
+> the allocated share of Availability only from −1.10% to −1.36%. For Availability to be allocated
+> even 5% of the variance, the six figures would have to span 28.7 percentage points — one year
+> near 71% against another near 100%. The maintenance register holds 2,192 individual days, of
+> which the worst is 74.4% and only nine fall below 80%; its widest monthly spread is 4.34 points
+> and its poorest month is 93.7%. An annual mean of 71% is below the worst single day the register
+> contains. Independently of that register, the production record shows no outage signature at
+> all: no shift has zero output, none falls below a tenth of its target, scheduled run time takes
+> exactly three values tracking the three shift regimes, and every year carries a complete set of
+> records. `code/reproduce.py` recomputes the thresholds.
 
 ---
 
